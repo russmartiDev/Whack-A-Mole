@@ -1,0 +1,129 @@
+body{
+    cursor: none;
+    overflow: hidden;
+    background-image: url('assets/bgjpg.jpg');
+    background-repeat: no-repeat;
+    background-size: 100vw 100vh;
+}
+.container{
+    width: 100vw;
+    height: 100vh;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+.soil{
+    width: 153px;
+    height: 75px;
+    background: url('assets/soil.png');
+    background-position: center;
+    background-size: cover;
+    position: absolute;
+    z-index: 2;
+}
+.mole1{
+    width: 123px;
+    height: 95px;
+    background-color: rgb(245, 245, 245);
+    background: url('assets/mole.png');
+    background-position: center;
+    background-size: cover;
+    position: absolute;
+    z-index: 1;
+}
+.mole2{
+    width: 123px;
+    height: 95px;
+    background-color: rgb(245, 245, 245);
+    background: url('assets/mole2.png');
+    background-position: center;
+    background-size: cover;
+    position: absolute;
+    z-index: 1;
+}
+.mole3{
+    width: 123px;
+    height: 95px;
+    background-color: rgb(245, 245, 245);
+    background: url('assets/mole3.png');
+    background-position: center;
+    background-size: cover;
+    position: absolute;
+    z-index: 1;
+}
+.mole4{
+    width: 123px;
+    height: 95px;
+    background-color: rgb(245, 245, 245);
+    background: url('assets/mole4.png');
+    background-position: center;
+    background-size: cover;
+    position: absolute;
+    z-index: 1;
+}
+.mole1Dead{
+    width: 123px;
+    height: 95px;
+    background-color: rgb(245, 245, 245);
+    background: url('assets/moleDead.png');
+    background-position: center;
+    background-size: cover;
+    position: absolute;
+    z-index: 1;
+}
+.mole2Dead{
+    width: 123px;
+    height: 95px;
+    background-color: rgb(245, 245, 245);
+    background: url('assets/mole2Dead.png');
+    background-position: center;
+    background-size: cover;
+    position: absolute;
+    z-index: 1;
+}
+.mole3Dead{
+    width: 123px;
+    height: 95px;
+    background-color: rgb(245, 245, 245);
+    background: url('assets/mole3Dead.png');
+    background-position: center;
+    background-size: cover;
+    position: absolute;
+    z-index: 1;
+}
+.mole4Dead{
+    width: 123px;
+    height: 95px;
+    background-color: rgb(245, 245, 245);
+    background: url('assets/mole4Dead.png');
+    background-position: center;
+    background-size: cover;
+    position: absolute;
+    z-index: 1;
+}
+.moleContainer{
+    width: 153px;
+    height: 150px;
+    position: absolute;
+    z-index: 1;
+    overflow: hidden;
+}
+#hammer{
+    width: 150px;
+    height: 150px;
+    position: absolute;
+    background-image: url('assets/Hammer1.png');
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    z-index: 10;
+}
+#score{
+        position:absolute;
+        font-family: 'Press Start 2P', cursive;
+        top:40px;
+        left:40px;
+        height: 10px;
+        width: 1000px;
+        font-size:20px;
+}

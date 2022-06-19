@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Whack A mole</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bungee+Inline&family=Press+Start+2P&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
+</head>
+<body>
+    <audio id="lose" src="assets/lose.mp3"></audio>
+    <audio id="bgMusic" src="assets/bg.mp3"></audio>
+    <div id="container" style="width: 100vw; height:100vh; background: rgb(17, 255, 69); margin-left: -8px; margin-top: -8px; z-index: 16;position: absolute;">
+        <img src="assets/logo.png" style="z-index: 12;position:absolute; left: 300px; top: 200px;" width="auto" height="400px" />
+    </div>
+    <div id="score">Score: 100</div>
+    <div id="life"></div>
+    <img src="assets/logo.png" style="position: relative; margin: auto; width: fit-content; display: block;" height="100px" />
+    <div id="hammer"></div>
+    <div id='world' class="container"></div>
+</body>
+</html>
